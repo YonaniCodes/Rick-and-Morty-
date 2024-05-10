@@ -1,17 +1,73 @@
 [
     {
         "id": 1,
+        "name": "Aidan Gillen (lord belish)",
+        "carer":"Irish actor",
+        "overview":  { "bgColor" :"bisque",
+                        "gallery": [
+                                   "https://www.looper.com/img/gallery/game-of-thrones-aidan-gillen-to-play-james-joyce-in-james-and-lucia/intro-1504028756.jpg",
+                                   "https://i.pinimg.com/originals/0f/02/d5/0f02d5e4e87d919c27cc7eff28b7c798.jpg",
+                                   "https://d6ehjqrqtzoun.cloudfront.net/5a17587d-4015-4e8f-93d8-184dbd6885f7.jpg"
+                                 ],
+                        "post":{
+                            "thumbnail":"./video1.png",
+                            "favicon": "./youtube-logo-youtube-icon-transparent-free-png.webp",
+                            "mediaName":"YouTube",
+                            "channelName":"Build Series",
+                            "text":"consectetur adipisicing elit. Dicta justify-between Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta justify-between",
+                            "date":"July 12 2004"
+                            },
+                        "age":"34",
+                        "dateOfBirth":"July 12 2004",
+                        "socialMedia":{
+                                    "favicon": "https://www.freepngimg.com/thumb/computer/68394-computer-instagram-icons-png-file-hd.png",
+                                    "name":"Instagram",
+                                    "userName":"@aidangillen",
+                                    "text":"photos and Videos",
+                                    "profilePicture":"https://i.pinimg.com/originals/67/96/4e/67964ede1828482b9a74bc446aa7737d.jpg"
+                                   }
+
+                           
+
+                    },
+        "web": [
+                {
+                 "favicon":"https://www.logolynx.com/images/logolynx/67/6785e31c00b2bf87afacd6b5609f9feb.jpeg",
+                "name":"Wkipidea",
+                "URL":"https://www.wikipedia.org",
+                "title":"Aidan Gillen",
+                "text": "WebAidan Murphy (born 24 April 1968), better known as Aidan Gillen (/ ˈ ɡ ɪ l ə n /), is an Irish actor. He is the recipient of three Irish Film & Television Awards and has been nominated …"
+                },
+                {
+                    "favicon":"https://i.pinimg.com/736x/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.jpg",
+                   "name":"Pinterest",
+                   "URL":"https://www.pinterest.ca/originalluver15/lord-petyr-littlefinger-baelish-got/",
+                   "title":"67 Lord Petyr “Littlefinger” Baelish G.O.T ideas",
+                   "text": "... board \"Lord Petyr “Littlefinger” Baelish G.O.T\", followed by 187 people on Pinterest. See more ideas about baelish, petyr baelish, aidan gillen."
+                   },
+                   {
+                    "favicon":"https://clipartcraft.com/images/imdb-logo-icon-4.png",
+                   "name":"IMDB",
+                   "URL":"https://www.imdb.com/name/nm0318821/",
+                   "title":"Aidan Gillen ",
+                   "text": "Versatile everyman Aidan Gillen plays the mysterious, scheming Petyr 'Littlefinger' Baelish on \" ... Aidan Gillen is an Irish actor. He is best known for ... "
+                   }
+
+               ]
+    }   , 
+    {
+        "id": 1,
         "name": "Ursula Corbero",
         "carer":"Spanish actress",
         "overview":  { "bgColor" :"bisque",
                         "gallery": [
-                                   "./ursula.png",
-                                   "./ursula.png",
-                                   "./ursula.png"
+                            "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/ursula-corbero-paul-kiriga.jpg",
+                            "https://i.pinimg.com/736x/38/41/96/384196c22afa3326a9d67eaa745ef021.jpg",
+                            "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/2-ursula-corbero-paul-kiriga.jpg"
                                  ],
                         "post":{
                             "thumbnail":"./video1.png",
-                            "favicon": "./youtube-logo-youtube-icon-transparent-free-png.webp",
+                            "favicon": "https://www.interstellarrift.com/wiki/images/d/d8/Youtube-logo-png-photo-0.png",
                             "mediaName":"YouTube",
                             "channelName":"Tolga",
                             "text":"consectetur adipisicing elit. Dicta justify-between Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta justify-between",
@@ -24,43 +80,36 @@
                                     "name":"YouTube",
                                     "userName":"@ursololita",
                                     "text":"photos and Videos",
-                                    "profilePicture":"./ursulaPic.png"
+                                    "profilePicture":"https://www.wallofcelebrities.com/celebrity/ursula-corbero/pictures/original/ursula-corbero_3082726.jpg"
                                    }
 
                            
 
-                    }
-    }   , 
-    {
-        "id": 1,
-        "name": "Lord Belish Corbero",
-        "carer":"Spanish actress",
-        "overview":  { "bgColor" :"bisque",
-                        "gallery": [
-                                   "./ursula.png",
-                                   "./ursula.png",
-                                   "./ursula.png"
-                                 ],
-                        "post":{
-                            "thumbnail":"./video1.png",
-                            "favicon": "./youtube-logo-youtube-icon-transparent-free-png.webp",
-                            "mediaName":"YouTube",
-                            "channelName":"Tolga",
-                            "text":"consectetur adipisicing elit. Dicta justify-between Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta justify-between",
-                            "date":"July 12 2004"
-                            },
-                        "age":"34",
-                        "dateOfBirth":"July 12 2004",
-                        "socialMedia":{
-                                    "favicon": "./youtube-logo-youtube-icon-transparent-free-png.webp",
-                                    "name":"YouTube",
-                                    "userName":"@ursololita",
-                                    "text":"photos and Videos",
-                                    "profilePicture":"./ursulaPic.png"
-                                   }
+                    },
 
-                           
-
-                    }
+                    "web": [
+                        {
+                         "favicon":"https://clipartcraft.com/images/imdb-logo-icon-4.png",
+                        "name":"IMDB",
+                        "URL":"https://www.imdb.com/name/nm2216549/bio/",
+                        "title":"Ursula Corbero",
+                        "text": "Mini Bio. Úrsula Corberó Delgado (born 11 August 1989) is a Spanish actress, best known for her roles as Ruth in the Antena 3 series Physics or Chemistry (2008) ... "
+                        } ,
+                        {
+                            "favicon":"https://www.logolynx.com/images/logolynx/67/6785e31c00b2bf87afacd6b5609f9feb.jpeg",
+                           "name":"Wkipidea",
+                           "URL":"https://simple.wikipedia.org/wiki/%C3%9Arsula_Corber%C3%B3",
+                           "title":"Ursula Corbero",
+                           "text": "Úrsula Corberó Delgado (born August 11, 1989) is a Spanish actress. She is mainly known for her roles as Ruth Gómez in Física o química (2008–2010), ... …"
+                           },
+                           {
+                            "favicon":"https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png",
+                           "name":"Netflix",
+                           "URL":"https://www.netflix.com/tudum/ursula-corbero",
+                           "title":"Úrsula Corberó - Netflix Tudum",
+                           "text": "Meet the talented Úrsula Corberó here on Netflix Tudum. Watch Úrsula Corberó on 'Money Heist'."
+                           }
+        
+                       ]
     }      
 ]

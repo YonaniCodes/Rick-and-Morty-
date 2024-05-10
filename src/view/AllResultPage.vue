@@ -7,11 +7,15 @@ import ActorProfile from '../components/ActorProfile.vue';
 import webResult from '../components/webResult.vue';
 import data from '../data/data.json'
 const route= useRoute()
-let filteredData
+const searchQuery= ref(route.params.query )
+let filteredData =  data.find((data)=> data.name.toLowerCase().includes(searchQuery.value))
+const {web}=filteredData
+
 const onSearchQuery=(searchQuery)=>{
-   filteredData= data.find((data)=> data.name.toLowerCase().includes(searchQuery))
+   filteredData.value= data.find((data)=> data.name.toLowerCase().includes(searchQuery))
+   console.log(filteredData.value)
+
  }
- 
  
 </script>
 
@@ -19,9 +23,10 @@ const onSearchQuery=(searchQuery)=>{
  
  <SearchBarSHeader @searchQuery="onSearchQuery"  />
   <navBars />
-   <ActorProfile :data="filteredData" />
+   <ActorProfile :filteredData="filteredData" />
+ 
     
-  <webResult/>
+  <webResult :web="web"/>
 </template >
 
 
