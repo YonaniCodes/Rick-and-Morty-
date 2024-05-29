@@ -4,7 +4,7 @@
 
 
 .header{
-    @apply flex w-full justify-end h-14  px-6 border
+    @apply flex w-full justify-end h-14  px-6 
  
 }
 .nav-routes{
@@ -17,14 +17,17 @@
     @apply flex border-2 items-center  max-w-600  px-6 shadow  rounded-3xl 
 }
 .result-header{
-    @apply flex w-full  border  px-10 fixed z-10 bg-white left-0 right-0 top-0
+    @apply flex w-full  px-10 fixed z-10 bg-white left-0 right-0 top-0
 }
 .header-searchbar{
     @apply flex-1 ml-20
 }
 .nav-menue{
-    @apply ml-10
+    @apply ml-10 cursor-pointer
 }
 .photo{
     @apply w-full h-full
+}
+.logo{
+    @apply hover:bg-gray-100 w-16 h-16 p-2 rounded-3xl ml-4
 }

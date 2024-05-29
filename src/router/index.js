@@ -1,8 +1,9 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import LandingPage from "../view/LandingPage.vue"
-import AllResultPage from '../view/AllResultPage.vue'
-import Images from '../view/ImagesPage.vue'
-const router= createRouter(
+import CharacterPage from "../view/CharacterPage.vue"
+import EpisodesPage from '../view/EpisodesPage.vue'
+import LocationPage from '../view/LocationPage.vue'
+  const router= createRouter(
     { history: createWebHistory(import.meta.env.BASE_URL),
       routes: [
            {
@@ -11,15 +12,22 @@ const router= createRouter(
                 component: LandingPage,
            },
            {
-               path:"/All/:query",
-               name:"ALl",
-               component: AllResultPage
-           },
-           {
-            path:"/Images/:query",
-            name:"Images",
-            component: Images
-        }
+            path:"/characters/:id",
+            name:"character",
+            component: CharacterPage,
+          },
+          {
+               path:"/Episodes/:id",
+               name:"episode",
+               component: EpisodesPage,
+          },
+          {
+               path:"/Locations/:id",
+               name:"locations",
+               component: LocationPage,
+          }
+     
+       
     ]
    }
 )

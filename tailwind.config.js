@@ -17,9 +17,17 @@ export default {
 
       },
        backgroundColor:{
-       'bisque':'bisque'
+       'bisque':'bisque',
+       "btn": "#06a4c8"
+      
+      },
+      colors:{
+        "primary": "#021b79",
+        "secondary": "#06a4c8"
+
       }
     },
+
   },
   plugins: [],
 }
