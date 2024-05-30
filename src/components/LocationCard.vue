@@ -34,7 +34,7 @@ const { result, loading, error } = useQuery(LOCATIONS_QUERY)
   <div v-if="loading">Loading</div>
   <div v-else-if="error">Something went Wrong</div>
   <div v-else>
-    <div class="text-4xl flex items-center mr-4 mt-16"> 
+    <div class="text-4xl flex items-center mr-4 my-16"> 
       <div class="bg-secondary w-1 h-8 mr-2"></div>
       Locations   
       <!-- <div class="flex ml-auto ">
@@ -44,7 +44,7 @@ const { result, loading, error } = useQuery(LOCATIONS_QUERY)
       </div>   -->
      
     </div>
-    <div class="grid grid-cols-3 gap-4 mt-10">
+    <div class="grid grid-cols-3 gap-4 my-10">
       <div v-for="location in result.locations.results" :key="location.id">
        <div @click="useRouting(`${path}${location.id}`)" class=" shadow-lg   ">
         <div class="location flex items-center justify-between p-2 cursor-pointer hover:text-secondary"> {{ location.name }} <img class="w-6" src="./location.png" alt=""></div> 

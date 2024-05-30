@@ -3,11 +3,11 @@
     <div v-if="error">Something went wrong...</div>
     <div v-if="loading">Loading...</div>
     <div v-else >  
-      <div class="text-3xl ">
+      <div class="text-3xl mt-32">
          {{ result.location.name}}
      </div>
-     <div>Dimension: {{ result.location.dimension }}</div>
-     <div>Type: {{ result.location.type }}</div>
+     <div class="mt-2">Dimension: {{ result.location.dimension }}</div>
+     <div  class="mt-2">Type: {{ result.location.type }}</div>
      <div class="text-4xl flex items-center mr-4 mt-16"> 
       <div class="bg-secondary w-1 h-8 mr-2"></div>
       Resident in      {{ result.location.name}}
